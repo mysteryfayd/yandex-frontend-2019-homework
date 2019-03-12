@@ -1,0 +1,76 @@
+.header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e2e2;
+    box-sizing: border-box;
+}
+
+.header__left-side {
+    display: flex;
+}
+
+.header__right-side {
+    display: flex;
+}
+
+.header__logo {
+    margin: 22px 22px 20px;
+}
+
+.header__logo a {
+    display: inline-block;
+}
+
+.header__link-main {
+    height: 28px;
+    width: 70px;
+    margin-right: 2px;
+    background: url(/img/logo-yandex-main.svg) no-repeat;
+}
+
+.header__link-service {
+    height: 28px;
+    width: 115px;
+    margin-bottom: -2px;
+    background: url(/img/logo-yandex-service.svg) no-repeat;
+}
+
+.header__search-group {
+    display: flex;
+    align-items: center;
+}
+
+.search-group__input .input__control {
+    width: 390px;
+    height: 12px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px 0 0 3px;
+    padding: 9px 9px;
+}
+
+.search-group__button .button__control {
+    width: 70px;
+    height: 32px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0 3px 3px 0;
+    border-left: 0px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search-group__button button:active {
+    background-color: #f6f5f3;
+}
+
+.user-data {
+    margin: 17px 28px 17px 0;
+}
+
+.user-picture {
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: url(/img/user-avatar.png) no-repeat;
+}

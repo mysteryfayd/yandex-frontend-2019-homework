@@ -1,0 +1,12 @@
+
+@import url("/css/header.css");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tab-list {
+    height: 60px;
+    border-bottom: 1px solid #e2e2e2;
+}
