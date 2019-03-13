@@ -67,12 +67,14 @@
 }
 
 .user-data {
+    display: flex;
     margin: 17px 28px 17px 0;
 }
 
 .user-picture {
-    display: block;
     width: 41px;
     height: 41px;
-    background: url(/img/user-avatar.png) no-repeat;
+    background-image: url(/img/user-avatar.png);
+    background-size: cover;
+    border-radius: 50%;
 }
