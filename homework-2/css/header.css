@@ -12,25 +12,27 @@
 }
 
 .header__right-side {
-    display: flex;
+    margin-left: auto;
 }
 
 .header__logo {
     margin: 22px 22px 20px;
 }
 
-.header__logo a {
-    display: inline-block;
+.header__logo {
+    display: flex;
 }
 
 .header__link-main {
     height: 28px;
     width: 70px;
-    margin-right: 2px;
+    margin-right: 4px;
     background: url(/img/logo-yandex-main.svg) no-repeat;
 }
 
 .header__link-service {
+    position: relative;
+    top: 2px;
     height: 28px;
     width: 115px;
     margin-bottom: -2px;
