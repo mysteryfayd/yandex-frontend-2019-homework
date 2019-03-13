@@ -1,12 +1,51 @@
 
 @import url("/css/header.css");
 
+@font-face {
+    font-family: 'Helvetica Neue Cyr Roman';
+    src: url('fonts/HelveticaNeueCyr-Roman.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+    font-family: 'Helvetica Neue Cyr Roman', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.tab-list {
+.content-wrapper {
+    margin: 0 auto 0 233px;
+}
+
+.tablist {
     height: 60px;
     border-bottom: 1px solid #e2e2e2;
+}
+
+.tablist__items {
+    display: flex;
+}
+
+.tablist__items span {
+    display: flex;
+}
+
+.tablist__tab {
+    margin-right: 40px;
+}
+
+.tablist__tab a {
+    padding: 21px 0;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.tablist__tab a:hover {
+    color: #ff0000;
+}
+
+.tablist__tab_selected {
+    border-bottom: 3px solid #000;
 }
