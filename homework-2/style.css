@@ -14,6 +14,22 @@ body {
     padding: 0;
 }
 
+h1 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: normal;
+    color: #262626;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
 .content-wrapper {
     margin: 0 auto 0 233px;
 }
@@ -37,9 +53,7 @@ body {
 
 .tablist__tab a {
     padding: 21px 0;
-    font-size: 14px;
-    color: #333;
-    text-decoration: none;
+    color: #050505;
 }
 
 .tablist__tab a:hover {
@@ -48,4 +62,77 @@ body {
 
 .tablist__tab_selected {
     border-bottom: 3px solid #000;
+}
+
+.page-company__header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.page-company__map-location {
+    padding-top: 14px;
+}
+
+.page-company__map-location i {
+    margin: 0 5px 0 12px;
+    color: #6e6e6e;
+}
+
+.page-company__content-tabs a {
+    color: #050505;
+}
+
+.control-group {
+    display: flex;
+}
+
+.content-toggle {
+    display: flex;
+    border: 1px solid #cfcfcf;
+    margin: 0 -1px 0 0;
+}
+
+.content-toggle:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.content-toggle:last-child {
+    border-radius: 0 3px 3px 0;
+}
+
+.content-toggle a {
+    padding: 5px 20px;
+}
+
+.content-toggle:hover {
+    background-color: #fafafa;
+}
+
+.button_active {
+    background-color: #ffeaa1;
+}
+
+
+.content-title {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.comment-rating {
+    background-color: #fdc904;
+    margin: 20px;
+    padding: 7px;
+    position: relative;
+    font-size: 18px;
+}
+
+.comment-rating span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -25px;
+    border: 17px solid transparent;
+    border-left: 8px solid #fdc904;
 }
