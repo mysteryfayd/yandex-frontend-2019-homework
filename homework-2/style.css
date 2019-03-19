@@ -30,6 +30,14 @@ a {
     font-size: 14px;
 }
 
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
 .content-wrapper {
     margin: 0 auto 0 233px;
 }
@@ -41,6 +49,7 @@ a {
 
 .tablist__items {
     display: flex;
+    margin: auto 0;
 }
 
 .tablist__items span {
@@ -48,11 +57,13 @@ a {
 }
 
 .tablist__tab {
+    display: flex;
+    position: relative;
     margin-right: 40px;
 }
 
 .tablist__tab a {
-    padding: 21px 0;
+    padding: 22px 0 21px 0;
     color: #050505;
 }
 
@@ -60,8 +71,14 @@ a {
     color: #ff0000;
 }
 
-.tablist__tab_selected {
-    border-bottom: 3px solid #000;
+.tablist__tab_selected a::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    bottom: -1px;
 }
 
 .page-company__header {
@@ -102,7 +119,7 @@ a {
 }
 
 .content-toggle a {
-    padding: 5px 20px;
+    padding: 6px 20px;
 }
 
 .content-toggle:hover {
@@ -123,7 +140,7 @@ a {
 .comment-rating {
     background-color: #fdc904;
     margin: 20px;
-    padding: 7px;
+    padding: 6px 10px;
     position: relative;
     font-size: 18px;
 }
@@ -135,4 +152,41 @@ a {
     right: -25px;
     border: 17px solid transparent;
     border-left: 8px solid #fdc904;
+}
+
+
+
+.comment__header {
+    display: flex;
+}
+
+.comment__user-data {
+    display: flex;
+}
+
+.comment__user-picture {
+    width: 31px;
+    height: 31px;
+    background-image: url(/img/user-avatar.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment__header h3 {
+    margin: auto 0;
+    font-size: 14px;
+}
+
+.comment__header a {
+    color: #000;
+}
+
+.comment__header time {
+    margin: auto 0;
+}
+
+.partition-dot {
+    content: '•';
+    display: block;
 }
