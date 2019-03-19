@@ -70,19 +70,19 @@
                 <div class="page-company__content-tabs">
                     <div class="control-group">
                         <div class="content-toggle">
-                            <a class="button button_content-information" href="#">Информация</a>
+                            <a class="button__content-information" href="#">Информация</a>
                         </div>
                         <div class="content-toggle">
-                            <a class="button button_content-service" href="#">Услуги</a>
+                            <a class="button__content-service" href="#">Услуги</a>
                         </div>
                         <div class="content-toggle">
-                            <a class="button button_content-photo" href="#">Фото</a>
+                            <a class="button__content-photo" href="#">Фото</a>
                         </div>
                         <div class="content-toggle">
-                            <a class="button button_content-comment button_active" href="#">Отзывы</a>
+                            <a class="button__content-comment button_active" href="#">Отзывы</a>
                         </div>
                         <div class="content-toggle">
-                            <a class="button button_content-statistics" href="#">Статистика</a>
+                            <a class="button__content-statistics" href="#">Статистика</a>
                         </div>
                     </div>
                 </div>
@@ -93,22 +93,121 @@
                             <h2 class="comment-count">12 отзывов об организации</h2>
                             <div class="comment-rating"><span>9.8</span></div>
                         </div>
-                        <article class="comment">
-                            <div class="comment__header">
-                                <a href="#" class="comment__user-data">
-                                    <span class="comment__user-picture"></span>
-                                    <h3>Василий Привалов</h3>
-                                </a>
-                                <span class="partition-dot"></span>
-                                <time>4 апреля 2016</time>
-                            </div>
-                            <div class="comment__text">
+                        
+                        <div class="all-comments">
+                            <article class="comment">
+                                <div class="comment__header">
+                                    <a href="#" class="comment__user-data">
+                                        <span class="comment__user-picture user-avatar-vasya"></span>
+                                        <h3>Василий Привалов</h3>
+                                    </a>
+                                    <div class="comment__date">
+                                        <time>4 апреля 2016</time>
+                                    </div>
+                                    <div class="comment__rating comment__rating_voted">
+                                        <span>оценка;</span>
+                                        <i class="far fa-thumbs-up"></i>
+                                    </div>
+                                </div>
+                                <div class="comment__body">
+                                    <span class="comment__text">Очень давно знаю это место буквально со дня открытия и для нашей семьи в особенности ребенка, 
+                                    оно стало самым любимым. Здесь рай не только для взрослых по части вкусной итальянской кухни и романтики</span> 
+                                    <a class="comment__read-more" href="#">читать полностью</a>
+                                </div>
+                                <div class="comment__footer">
+                                    <div class="comment__control">
+                                        <div class="comment__button">
+                                            <a class="button__answer" href="#">Ответить</a>
+                                        </div>    
+                                        <div class="comment__button">
+                                            <a class="button__complain" href="#">Пожаловаться</a>
+                                        </div>
+                                        <a class="comment__link" href="#">Ссылка на отзыв</a>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                            <article class="comment">
+                                <div class="comment__header">
+                                    <a href="#" class="comment__user-data">
+                                        <span class="comment__user-picture user-avatar-ilya"></span>
+                                        <h3>Илья Пряников</h3>
+                                    </a>
+                                    <div class="comment__date">
+                                        <time>9 мая 2016</time>
+                                    </div>
+                                    <div class="comment__rating comment__rating_voted">
+                                        <span>оценка:</span>
+                                        <i class="far fa-thumbs-up"></i>
+                                    </div>
+                                </div>
+                                <div class="comment__body">
+                                    <span class="comment__text">
+                                        Удивительное, хорошее место. Кухня на высоте. Интерьер крайне приятный, играет рояль каждый раз и для деток проводят мастер-классы.
+                                        На радость родителям - бесплатно!
+                                    </span> 
+                                </div>
+                                <div class="comment__footer">
+                                    <div class="comment__control">
+                                        <div class="comment__button">
+                                            <a class="button__answer" href="#">Ответить</a>
+                                        </div>    
+                                        <div class="comment__button">
+                                            <a class="button__complain" href="#">Пожаловаться</a>
+                                        </div>
+                                        <a class="comment__link" href="#">Ссылка на отзыв</a>
+                                    </div>
+                                </div>
+                            </article>
 
-                            </div>
-                            <div class="comment__control">
+                            <article class="comment">
+                                <div class="comment__header">
+                                    <a href="#" class="comment__user-data">
+                                        <span class="comment__user-picture user-avatar-lida"></span>
+                                        <h3>Лидия Никарагуа</h3>
+                                    </a>
+                                    <div class="comment__date">
+                                        <time>23 октября 2016</time>
+                                    </div>
+                                    <div class="comment__rating">
+                                        <span>оценка:</span>
+                                        <i class="far fa-thumbs-up fa-rotate"></i>
+                                    </div>
+                                </div>
+                                <div class="comment__body">
+                                    <span class="comment__text">
+                                            Не понравилось. На Белорусской и Пролетарской как то поуютнее, обстановка поприятнее. Маленький выбор пива, а цена на него большая. 
+                                            Лёффе 0.33 290р!!! Не очень понравилась еда. Брали фирменные бургеры Мясо было пересоленное и переперченное. Плюс какое то слишком жирное. 
+                                            В итоге, просуммировав все, считаю, что при нынешнем уровне качестве заведения цены на еду и напитки должны быть ниже.
+                                    </span> 
+                                </div>
+                                <div class="comment__footer">
+                                    <div class="comment__control">
+                                        <div class="comment__button">
+                                            <a class="button__answer button_active" href="#">Ответить</a>
+                                        </div>    
+                                        <div class="comment__button">
+                                            <a class="button__complain" href="#">Пожаловаться</a>
+                                        </div>
+                                        <a class="comment__link" href="#">Ссылка на отзыв</a>
+                                    </div>
+                                    <div class="comment__answer">
+                                        <div class="answer__header">
+                                            <strong>Напишите ответ на отзыв</strong>
+                                        </div>
+                                        <div class="answer__input">
+                                            <input >
+                                        </div>
+                                        <div class="answer__publish">
+                                            <a class="answer__btn" href="#">Опубликовать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
 
-                            </div>
-                        </article>
+                            <br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
