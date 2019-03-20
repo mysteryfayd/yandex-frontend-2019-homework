@@ -16,8 +16,12 @@
         <!-- header left side -->
         <div class="header__left-side">
             <div class="header__logo">
-                <a href="#" class="header__link-main"></a>
-                <a href="#" class="header__link-service"></a>
+                <a href="#">
+                    <img src="img/logo-yandex-main.svg" alt="Логотип Яндекс" class="header__link-main">
+                </a>
+                <a href="#">
+                    <img src="img/logo-yandex-service.svg" alt="Справочник" class="header__link-service">
+                </a>
             </div>
             <form class="header__search-group" action="#">
                 <div class="search-group__input">
@@ -33,7 +37,7 @@
         <!-- header right side -->
         <div class="header__right-side">
             <a href="#" class="user-data">
-                <span class="user-picture"></span>
+                <img src="img/user-avatar.png" alt="Изображение профиля пользователя" class="user-picture">
             </a>
         </div>
     </header>
@@ -58,39 +62,38 @@
     <main class="content-wrapper">
         <div class="page-company">
             <div class="page-company__header">
-                <div class="page-company__title">
-                    <h1>Кафе Гладиатор</h1>
-                </div>
+                <h1 class="page-company__title">Кафе Гладиатор</h1>
                 <div class="page-company__map-location">
-                    <i class="fas fa-map-marker-alt"></i><a href="#">Страница на Картах</a>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="#">Страница на Картах</a>
                 </div>
             </div>
 
             <div class="page-company__info">
                 <div class="page-company__content-tabs">
-                    <div class="control-group">
-                        <div class="content-toggle">
+                    <ul class="control-group">
+                        <li class="content-toggle">
                             <a class="button__content-information" href="#">Информация</a>
-                        </div>
-                        <div class="content-toggle">
+                        </li>
+                        <li class="content-toggle">
                             <a class="button__content-service" href="#">Услуги</a>
-                        </div>
-                        <div class="content-toggle">
+                        </li>
+                        <li class="content-toggle">
                             <a class="button__content-photo" href="#">Фото</a>
-                        </div>
-                        <div class="content-toggle">
+                        </li>
+                        <li class="content-toggle">
                             <a class="button__content-comment button_active" href="#">Отзывы</a>
-                        </div>
-                        <div class="content-toggle">
+                        </li>
+                        <li class="content-toggle">
                             <a class="button__content-statistics" href="#">Статистика</a>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="page-company__content">
                     <div class="content-comment__layout">
                         <div class="content-title">
-                            <h2 class="comment-count">12 отзывов об организации</h2>
+                            <h2 class="comment-count"><span>12</span> отзывов об организации</h2>
                             <div class="comment-rating"><span>9.8</span></div>
                         </div>
                         
@@ -98,7 +101,7 @@
                             <article class="comment">
                                 <div class="comment__header">
                                     <a href="#" class="comment__user-data">
-                                        <span class="comment__user-picture user-avatar-vasya"></span>
+                                        <img src="img/user-avatar-vasya.png" alt="Фото пользователя" class="comment__user-picture">
                                         <h3>Василий Привалов</h3>
                                     </a>
                                     <div class="comment__date">
@@ -110,9 +113,9 @@
                                     </div>
                                 </div>
                                 <div class="comment__body">
-                                    <span class="comment__text">Очень давно знаю это место буквально со дня открытия и для нашей семьи в особенности ребенка, 
-                                    оно стало самым любимым. Здесь рай не только для взрослых по части вкусной итальянской кухни и романтики</span> 
-                                    <a class="comment__read-more" href="#">читать полностью</a>
+                                    <p class="comment__text">Очень давно знаю это место буквально со дня открытия и для нашей семьи в особенности ребенка, 
+                                    оно стало самым любимым. Здесь рай не только для взрослых по части вкусной итальянской кухни и романтики
+                                    <a class="comment__read-more" href="#">читать полностью</a></p> 
                                 </div>
                                 <div class="comment__footer">
                                     <div class="comment__control">
@@ -130,7 +133,7 @@
                             <article class="comment">
                                 <div class="comment__header">
                                     <a href="#" class="comment__user-data">
-                                        <span class="comment__user-picture user-avatar-ilya"></span>
+                                        <img src="img/user-avatar-ilya.png" alt="Фото пользователя" class="comment__user-picture">
                                         <h3>Илья Пряников</h3>
                                     </a>
                                     <div class="comment__date">
@@ -142,10 +145,10 @@
                                     </div>
                                 </div>
                                 <div class="comment__body">
-                                    <span class="comment__text">
+                                    <p class="comment__text">
                                         Удивительное, хорошее место. Кухня на высоте. Интерьер крайне приятный, играет рояль каждый раз и для деток проводят мастер-классы.
                                         На радость родителям - бесплатно!
-                                    </span> 
+                                    </p> 
                                 </div>
                                 <div class="comment__footer">
                                     <div class="comment__control">
@@ -163,7 +166,7 @@
                             <article class="comment">
                                 <div class="comment__header">
                                     <a href="#" class="comment__user-data">
-                                        <span class="comment__user-picture user-avatar-lida"></span>
+                                        <img src="img/user-avatar-lida.png" alt="Фото пользователя" class="comment__user-picture">
                                         <h3>Лидия Никарагуа</h3>
                                     </a>
                                     <div class="comment__date">
@@ -175,11 +178,11 @@
                                     </div>
                                 </div>
                                 <div class="comment__body">
-                                    <span class="comment__text">
+                                    <p class="comment__text">
                                             Не понравилось. На Белорусской и Пролетарской как то поуютнее, обстановка поприятнее. Маленький выбор пива, а цена на него большая. 
                                             Лёффе 0.33 290р!!! Не очень понравилась еда. Брали фирменные бургеры Мясо было пересоленное и переперченное. Плюс какое то слишком жирное. 
                                             В итоге, просуммировав все, считаю, что при нынешнем уровне качестве заведения цены на еду и напитки должны быть ниже.
-                                    </span> 
+                                    </p> 
                                 </div>
                                 <div class="comment__footer">
                                     <div class="comment__control">

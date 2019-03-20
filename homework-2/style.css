@@ -110,6 +110,7 @@ li {
 
 .control-group {
     display: flex;
+    margin: 0;
 }
 
 .content-toggle {
@@ -183,21 +184,9 @@ li {
 .comment__user-picture {
     width: 31px;
     height: 31px;
-    background-size: cover;
+    object-fit: cover;
     border-radius: 50%;
     margin-right: 10px;
-}
-
-.user-avatar-vasya {
-    background-image: url(/img/user-avatar-vasya.png);
-}
-
-.user-avatar-ilya {
-    background-image: url(/img/user-avatar-ilya.png);
-}
-
-.user-avatar-lida {
-    background-image: url(/img/user-avatar-lida.png);
 }
 
 .comment__header h3 {
@@ -242,7 +231,7 @@ li {
 }
 
 .comment__text {
-    margin: 5px 0;
+    margin: 0;
     font-size: 15px;
 }
 
