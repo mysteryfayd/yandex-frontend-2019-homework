@@ -283,10 +283,51 @@ li {
 
 }
 
-.answer__publish {
+.textarea {
+    width: 548px;
+    height: 120px;
+    padding: 0;
+    max-width: 548px;
+    border: 1px solid #cfcfcf;
+}
 
+.answer__publish {
+    display: flex;
+    margin: 10px 0 0 auto;
+    padding: 0;
+    border: 0;
+    border-radius: 3px;
+    background-color: #f3f3f3;
 }
 
 .answer__btn {
+    padding: 11px 25px;
+    color: #a0a0a0;
+    font-size: 16px;
+}
 
+.answer__btn:hover {
+    background-color: #ffeaa1;
+    border-radius: 3px;
+    color: #000;
+}
+
+.comment__show-all {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+}
+
+.show-all-btn {
+    margin: 0 auto;
+    padding: 15px 0;
+    color: #000;
+    font-size: 18px;
+}
+
+.comment__show-all:hover {
+    background-color: #ffeaa1;
 }
