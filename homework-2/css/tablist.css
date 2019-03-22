@@ -1,0 +1,38 @@
+.tablist {
+    height: 60px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.tablist__items {
+    display: flex;
+    margin: auto 0;
+}
+
+.tablist__items span {
+    display: flex;
+}
+
+.tablist__tab {
+    display: flex;
+    position: relative;
+    margin-right: 40px;
+}
+
+.tablist__tab a {
+    padding: 22px 0 21px 0;
+    color: #050505;
+}
+
+.tablist__tab a:hover {
+    color: #ff0000;
+}
+
+.tablist__tab_selected a::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+}

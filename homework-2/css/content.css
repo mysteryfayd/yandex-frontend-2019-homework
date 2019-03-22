@@ -1,0 +1,108 @@
+.content-wrapper {
+    margin: 0 auto 0 233px;
+}
+
+.page-company {
+    width: 550px;
+}
+
+/* ===== COMPANY HEADER ===== */
+.page-company__header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+.page-company__title {
+    margin: 0;
+    font-size: 35px;
+    font-weight: normal;
+    color: #262626;
+}
+.page-company__map-location {
+    padding-top: 14px;
+}
+.fa-map-marker-alt {
+    margin: 0 5px 0 12px;
+    color: #6e6e6e;
+}
+
+/* ====== COMPANY INFO ====== */
+/* content tabs */
+.control-group {
+    display: flex;
+    margin: 0;
+}
+.content-toggle {
+    display: flex;
+    border: 1px solid #cfcfcf;
+    margin: 0 -1px 0 0;
+}
+.content-toggle:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.content-toggle:last-child {
+    border-radius: 0 3px 3px 0;
+}
+.content-toggle:hover {
+    background-color: #fafafa;
+}
+.toggle-button {
+    color: #050505;
+    padding: 6px 20px;
+}
+.toggle-button_active {
+    background-color: #ffeaa1;
+}
+
+/* content */
+.content-title {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.comment-count {
+    font-weight: normal;
+}
+.comment-rating {
+    background-color: #fdc904;
+    margin: 20px;
+    padding: 6px 10px;
+    position: relative;
+    font-size: 18px;
+}
+.comment-rating span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -25px;
+    border: 17px solid transparent;
+    border-left: 8px solid #fdc904;
+}
+
+/* comments */
+.comment {
+    margin-top: 35px;
+}
+.comment:first-child {
+    margin-top: 0px;
+}
+.comment__header {
+    display: flex;
+    color: #a3a3a3;
+    font-size: 14px;
+}
+.comment__user-data {
+    display: flex;
+    margin-right: 10px;
+}
+.comment__user-picture {
+    width: 31px;
+    height: 31px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.comment__user-name {
+    margin: auto 0;
+    font-size: 14px;
+}

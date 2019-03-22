@@ -1,4 +1,6 @@
 @import url("/css/header.css");
+@import url("/css/tablist.css");
+@import url("/css/content.css");
 
 @font-face {
     font-family: 'Helvetica Neue Cyr Roman';
@@ -11,17 +13,6 @@ body {
     font-family: 'Helvetica Neue Cyr Roman', Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    margin: 0;
-    font-size: 35px;
-    font-weight: normal;
-    color: #262626;
-}
-
-h2 {
-    font-weight: normal;
 }
 
 a {
@@ -42,157 +33,10 @@ li {
     border: 1px solid #cfcfcf;
 }
 
-.content-wrapper {
-    margin: 0 auto 0 233px;
-}
 
-.tablist {
-    height: 60px;
-    border-bottom: 1px solid #e2e2e2;
-}
 
-.tablist__items {
-    display: flex;
-    margin: auto 0;
-}
 
-.tablist__items span {
-    display: flex;
-}
 
-.tablist__tab {
-    display: flex;
-    position: relative;
-    margin-right: 40px;
-}
-
-.tablist__tab a {
-    padding: 22px 0 21px 0;
-    color: #050505;
-}
-
-.tablist__tab a:hover {
-    color: #ff0000;
-}
-
-.tablist__tab_selected a::after {
-    content: '';
-    position: absolute;
-    height: 3px;
-    background-color: #000;
-    left: 0;
-    right: 0;
-    bottom: -1px;
-}
-
-.page-company {
-    width: 550px;
-}
-
-.page-company__header {
-    display: flex;
-    align-items: center;
-    height: 90px;
-}
-
-.page-company__map-location {
-    padding-top: 14px;
-}
-
-.page-company__map-location i {
-    margin: 0 5px 0 12px;
-    color: #6e6e6e;
-}
-
-.page-company__content-tabs a {
-    color: #050505;
-}
-
-.control-group {
-    display: flex;
-    margin: 0;
-}
-
-.content-toggle {
-    display: flex;
-    border: 1px solid #cfcfcf;
-    margin: 0 -1px 0 0;
-}
-
-.content-toggle:first-child {
-    border-radius: 3px 0 0 3px;
-}
-
-.content-toggle:last-child {
-    border-radius: 0 3px 3px 0;
-}
-
-.content-toggle a {
-    padding: 6px 20px;
-}
-
-.content-toggle:hover {
-    background-color: #fafafa;
-}
-
-.button_active {
-    background-color: #ffeaa1;
-}
-
-.content-title {
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
-
-.comment-rating {
-    background-color: #fdc904;
-    margin: 20px;
-    padding: 6px 10px;
-    position: relative;
-    font-size: 18px;
-}
-
-.comment-rating span:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -25px;
-    border: 17px solid transparent;
-    border-left: 8px solid #fdc904;
-}
-
-.comment {
-    margin-top: 35px;
-}
-
-.comment:first-child {
-    margin-top: 0px;
-}
-
-.comment__header {
-    display: flex;
-    color: #a3a3a3;
-    font-size: 14px;
-}
-
-.comment__user-data {
-    display: flex;
-    margin-right: 10px;
-}
-
-.comment__user-picture {
-    width: 31px;
-    height: 31px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.comment__header h3 {
-    margin: auto 0;
-    font-size: 14px;
-}
 
 .comment__header a {
     color: #000;
