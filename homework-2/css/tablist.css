@@ -4,6 +4,7 @@
 }
 
 .tablist__items {
+    padding-inline-start: 0;
     display: flex;
     margin: auto 0;
 }
