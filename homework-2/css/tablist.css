@@ -2,33 +2,34 @@
     height: 60px;
     border-bottom: 1px solid #e2e2e2;
 }
-
 .tablist__items {
-    padding-inline-start: 0;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto 0;
 }
-
 .tablist__items span {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
-
 .tablist__tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
     margin-right: 40px;
 }
-
-.tablist__tab a {
+.tablist__text {
     padding: 22px 0 21px 0;
     color: #050505;
 }
-
-.tablist__tab a:hover {
+.tablist__text:hover {
     color: #ff0000;
 }
-
-.tablist__tab_selected a::after {
+.tablist__tab_selected::after {
     content: '';
     position: absolute;
     height: 3px;
