@@ -45,6 +45,7 @@
     box-shadow: 0 0 0 1px #fc0;
     border: 1px solid #fc0;
     width: 388px;
+    height: 10px;
     outline: none;
     margin-right: 2px;
 }
