@@ -51,7 +51,7 @@
     color: #050505;
     padding: 6px 20px;
 }
-.toggle-button_active {
+.button_active {
     background-color: #ffeaa1;
 }
 
@@ -59,7 +59,7 @@
 .content-title {
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 90px;
 }
 .comment-count {
     font-weight: normal;
@@ -67,7 +67,7 @@
 .comment-rating {
     background-color: #fdc904;
     margin: 20px;
-    padding: 6px 10px;
+    padding: 4px 8px;
     position: relative;
     font-size: 18px;
 }
@@ -75,8 +75,8 @@
     content: '';
     position: absolute;
     top: 0;
-    right: -25px;
-    border: 17px solid transparent;
+    right: -22px;
+    border: 14px solid transparent;
     border-left: 8px solid #fdc904;
 }
 
@@ -187,17 +187,22 @@
     cursor: pointer;
 }
 .answer__clear-btn:hover .close-line {
-    background-color: #ffeaa1;
+    background-color: #fc0;
 }
 .answer__clear-btn:focus .close-line {
-    background-color: #ffeaa1;
+    background-color: #fc0;
 }
-.textarea {
+.feedback-textarea {
     width: 548px;
     height: 120px;
-    padding: 0;
-    max-width: 548px;
+    padding: 5px;
+    max-width: 538px;
     border: 1px solid #cfcfcf;
+}
+.feedback-textarea:focus {
+    box-shadow: 0 0 0 1px #fc0;
+    border: 1px solid #fc0;
+    outline: none;
 }
 .close-line {
     display: block;
@@ -214,13 +219,13 @@
 .close-line-r {
     transform: rotate(135deg);
 }
-.answer__publish {
+.answer__publish-btn {
     display: flex;
     margin: 10px 0 0 auto;
     padding: 0;
     border: 0;
     border-radius: 3px;
-    background-color: #f3f3f3;
+    background-color: #ececec;
 }
 .answer__btn {
     padding: 11px 25px;
@@ -247,5 +252,5 @@
     font-size: 18px;
 }
 .comment__show-all:hover {
-    background-color: #ffeaa1;
+    background-color: #fc0;
 }
